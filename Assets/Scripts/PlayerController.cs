@@ -44,7 +44,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Moving character goes here
-        Debug.Log(crouch);
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
