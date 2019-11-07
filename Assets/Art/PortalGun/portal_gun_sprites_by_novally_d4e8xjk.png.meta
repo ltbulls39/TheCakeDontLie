@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: 8354c104ea470d943a8103c1426c34da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6593653193837482664
+    second: portal_gun_sprites_by_novally_d4e8xjk_0
+  - first:
+      213: 3823972098948989848
+    second: portal_gun_sprites_by_novally_d4e8xjk_1
+  - first:
+      213: 424967305656795875
+    second: portal_gun_sprites_by_novally_d4e8xjk_2
+  - first:
+      213: 5526955165311393558
+    second: portal_gun_sprites_by_novally_d4e8xjk_3
+  - first:
+      213: 7507978564418290776
+    second: portal_gun_sprites_by_novally_d4e8xjk_4
+  - first:
+      213: 4144046004078291100
+    second: portal_gun_sprites_by_novally_d4e8xjk_5
+  - first:
+      213: -6555586444565056854
+    second: portal_gun_sprites_by_novally_d4e8xjk_6
+  - first:
+      213: -4252148067280064431
+    second: portal_gun_sprites_by_novally_d4e8xjk_7
+  - first:
+      213: -5721133966117552862
+    second: portal_gun_sprites_by_novally_d4e8xjk_8
+  - first:
+      213: -7015435992657147634
+    second: portal_gun_sprites_by_novally_d4e8xjk_9
+  - first:
+      213: -2083271835411001981
+    second: portal_gun_sprites_by_novally_d4e8xjk_10
+  - first:
+      213: 1829434153137827721
+    second: portal_gun_sprites_by_novally_d4e8xjk_11
+  - first:
+      213: 2585820989677273468
+    second: portal_gun_sprites_by_novally_d4e8xjk_12
+  - first:
+      213: -3118372434281252731
+    second: portal_gun_sprites_by_novally_d4e8xjk_13
+  - first:
+      213: 8116559150178812955
+    second: portal_gun_sprites_by_novally_d4e8xjk_14
+  - first:
+      213: -4436288856654869667
+    second: portal_gun_sprites_by_novally_d4e8xjk_15
+  - first:
+      213: -2127068252261190625
+    second: portal_gun_sprites_by_novally_d4e8xjk_16
+  - first:
+      213: -4709664201833908482
+    second: portal_gun_sprites_by_novally_d4e8xjk_17
+  - first:
+      213: 2119700266834255335
+    second: portal_gun_sprites_by_novally_d4e8xjk_18
+  - first:
+      213: -1277758632541326278
+    second: portal_gun_sprites_by_novally_d4e8xjk_19
+  - first:
+      213: 1824229469558598200
+    second: portal_gun_sprites_by_novally_d4e8xjk_20
+  - first:
+      213: 6956261056268773199
+    second: portal_gun_sprites_by_novally_d4e8xjk_21
+  - first:
+      213: 2603327801150403036
+    second: portal_gun_sprites_by_novally_d4e8xjk_22
+  - first:
+      213: -1963976718901402824
+    second: portal_gun_sprites_by_novally_d4e8xjk_23
+  - first:
+      213: 8835040740897442375
+    second: portal_gun_sprites_by_novally_d4e8xjk_24
+  - first:
+      213: -8743894938554980833
+    second: portal_gun_sprites_by_novally_d4e8xjk_25
+  - first:
+      213: 2615268785685303395
+    second: portal_gun_sprites_by_novally_d4e8xjk_26
+  - first:
+      213: 2718472844476145438
+    second: portal_gun_sprites_by_novally_d4e8xjk_27
+  - first:
+      213: -7873146457680970930
+    second: portal_gun_sprites_by_novally_d4e8xjk_28
+  - first:
+      213: -4281266551913551371
+    second: portal_gun_sprites_by_novally_d4e8xjk_29
+  - first:
+      213: -7253044570174188564
+    second: portal_gun_sprites_by_novally_d4e8xjk_30
+  - first:
+      213: -3713658530076668567
+    second: portal_gun_sprites_by_novally_d4e8xjk_31
+  - first:
+      213: 7192713613707699869
+    second: portal_gun_sprites_by_novally_d4e8xjk_32
+  - first:
+      213: 2636422999403691121
+    second: portal_gun_sprites_by_novally_d4e8xjk_33
+  - first:
+      213: -4034373046003649597
+    second: portal_gun_sprites_by_novally_d4e8xjk_34
+  - first:
+      213: 84929127619671300
+    second: portal_gun_sprites_by_novally_d4e8xjk_35
+  - first:
+      213: 2739795108566078826
+    second: portal_gun_sprites_by_novally_d4e8xjk_36
+  - first:
+      213: 3713894315422102182
+    second: portal_gun_sprites_by_novally_d4e8xjk_37
+  - first:
+      213: 4072719291466872203
+    second: portal_gun_sprites_by_novally_d4e8xjk_38
+  - first:
+      213: 2987228764761762436
+    second: portal_gun_sprites_by_novally_d4e8xjk_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6609cfd4a13d3244a47d62eb24df3d7
+      internalID: 6593653193837482664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 273
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49cf2d38387bf64fa8806847b573dcf
+      internalID: 3823972098948989848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 273
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb684576d5aaf39499289d2c5d0ff9b4
+      internalID: 424967305656795875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 273
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7d07464ef9d1f46aad27d715f5944c
+      internalID: 5526955165311393558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 273
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab3774307754f841b8200dbab9b1144
+      internalID: 7507978564418290776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83483c326d10f47a8b29c5a87b1187
+      internalID: 4144046004078291100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 234
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18dc957a356d344d8d5da65a9a35dc0
+      internalID: -6555586444565056854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 234
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106a2258a00f8014d9753125e7bada7e
+      internalID: -4252148067280064431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 234
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ad9235644c5d54f93dcc8ad96b4f3f
+      internalID: -5721133966117552862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 234
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b50e593ef82d41a201d0ff2da6245
+      internalID: -7015435992657147634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22017818a818864a8709fc35b04ae43
+      internalID: -2083271835411001981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 195
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b0bdd75762e7540b993c685d06734f
+      internalID: 1829434153137827721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 195
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc40aea055ff8f4684e5d49f566a3e0
+      internalID: 2585820989677273468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 195
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc0df92a9625bd4fb7bd891bee94950
+      internalID: -3118372434281252731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 195
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74d5b73a4eeb744ad424ff71b4f987
+      internalID: 8116559150178812955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05a994c08d38114cbc5a14aab86fc2d
+      internalID: -4436288856654869667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 156
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d626072154b144897c3c993ddf8680
+      internalID: -2127068252261190625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 156
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1907bcf583fdad849a3e32c89c4d5ca4
+      internalID: -4709664201833908482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 156
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e477b1f0be049f4684ee0a84da67841
+      internalID: 2119700266834255335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 156
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1128919943f9b4aa02b53c2c55594b
+      internalID: -1277758632541326278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799b780c22e47164a878acda91b83597
+      internalID: 1824229469558598200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 117
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124bdc19d00653546bb6019f09a4d3a3
+      internalID: 6956261056268773199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 117
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a96d8c97602804e9377b6b2e4446b4
+      internalID: 2603327801150403036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 117
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363354fd092259f4c9491761fca5aeee
+      internalID: -1963976718901402824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 117
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2794ef300e0349c4bb31a5edf9ea54a6
+      internalID: 8835040740897442375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22619ca4331865d438819eb27e447a79
+      internalID: -8743894938554980833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 78
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408888a977913ef44a0a799e5ba104f0
+      internalID: 2615268785685303395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 78
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a03f64dd3761854dbdbf7602e528ec0
+      internalID: 2718472844476145438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 78
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7e9c6aa6ae9a346b386387fd341471
+      internalID: -7873146457680970930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 78
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3032615d1236849a46d39ecc5bda81
+      internalID: -4281266551913551371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73429f0b0be6bab4fa2d3058bb7c307f
+      internalID: -7253044570174188564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 39
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456dfe91e4164414a8cf1289eaf4df5b
+      internalID: -3713658530076668567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 39
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95ccbac8326d3458aaa6803ec2878f
+      internalID: 7192713613707699869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_33
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 39
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a776e724c4595140a317f6ef86c4043
+      internalID: 2636422999403691121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_34
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 39
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b4cb4417ac8a4880c8d0884c7625c
+      internalID: -4034373046003649597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7350d94d591532b42931784e52440e77
+      internalID: 84929127619671300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819c226def6139d44b2a7db6ef19e1fc
+      internalID: 2739795108566078826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_37
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea7344a0ef0a894a99b4f1d87a85397
+      internalID: 3713894315422102182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_38
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872262e3da665bd4580a33ee6ec01e34
+      internalID: 4072719291466872203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_gun_sprites_by_novally_d4e8xjk_39
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 98.4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7608b7bacf54b45bbc5ac6ec59fe87
+      internalID: 2987228764761762436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

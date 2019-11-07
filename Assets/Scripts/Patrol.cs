@@ -6,45 +6,32 @@ public class Patrol : MonoBehaviour
 {
     public float speed;
     float distance = 1f;
-
     private bool movingRight = true;
-
     public Transform groundDetect;
 
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        // Moves the character and then gets info on the ground beneath it
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         RaycastHit2D groundInfo = Physics2D.Raycast(groundDetect.position, Vector2.down, distance);
         Debug.DrawRay(groundDetect.position, Vector2.down, Color.red);
+
+
         if (groundInfo.collider == false)
         {
-            Debug.Log("Ray hasn't collided with anything");
+            // Collider not hittin anything
             if (movingRight == true)
             {
-                Debug.Log("Turning left");
+                // Turning left
                 transform.eulerAngles = new Vector3(0, -180, 0);
                 movingRight = false;
             } else
             {
-                Debug.Log("Turning right");
+                // Turning right
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = true;
             }
         }
-    }
-
-    void FixedUpdate()
-    {
-        
     }
 }

@@ -35,7 +35,7 @@ public class CharacterController2D : MonoBehaviour
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         curGravScale = m_Rigidbody2D.gravityScale;
-
+        Debug.Log("On land event ask");
         if (OnLandEvent == null)
             OnLandEvent = new UnityEvent();
 
@@ -55,9 +55,14 @@ public class CharacterController2D : MonoBehaviour
         {
             if (colliders[i].gameObject != gameObject)
             {
+                // Hardcoded so the Cinemachine camera doesn't interfere with jump
+                if (colliders[i].gameObject.name == "CM_Confiner")
+                    continue;
                 m_Grounded = true;
                 if (!wasGrounded)
+                {
                     OnLandEvent.Invoke();
+                }
             }
         }
     }
