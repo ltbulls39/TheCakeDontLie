@@ -9,23 +9,25 @@ public class ArmRotation : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Vector3 diff = GetWorldPosOnPlane(Input.mousePosition, -10) - transform.position;
-        //Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         Vector3 pos = Input.mousePosition;
-        pos.z = 10;
-        Vector3 diff = Camera.main.ScreenToWorldPoint(pos);
-        diff = worldPos();
-        Debug.Log(diff);
-        
-        diff.Normalize();
 
-        float rotationAngle = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-        Debug.Log(rotationAngle);
+        difference.Normalize();
 
-        float angle = AngleBetweenPoints(transform.position, diff);
-        transform.rotation = Quaternion.Euler(0f, 0f, angle + 0f);
+        float rotationAngle2 = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rotationAngle2 + 0f);
 
-        //Debug.DrawRay(doo.origin, doo.direction * 10, Color.red);
+        if (rotationAngle2 < -90 || rotationAngle2 > 90)
+        {
+            if (player.transform.eulerAngles.y == 0)
+            {
+                transform.localRotation = Quaternion.Euler(180, 0, -rotationAngle2);
+            }
+            else if (player.transform.eulerAngles.y == 180)
+            {
+                transform.localRotation = Quaternion.Euler(180, 180, -rotationAngle2);
+            }
+        }
     }
 
     private float AngleBetweenPoints(Vector3 a, Vector3 b)
