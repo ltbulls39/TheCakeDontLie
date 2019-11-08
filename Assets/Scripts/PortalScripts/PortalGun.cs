@@ -32,10 +32,13 @@ public class PortalGun : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             greenInstantiated = shoot(greenPortalPrefab, greenInstantiated);
-        } else if (Input.GetButtonDown("Fire2"))
+        }
+        else if (Input.GetButtonDown("Fire2"))
         {
             purpInstantiated = shoot(purplePortalPrefab, purpInstantiated);
         }
+        else if (Input.GetButtonDown("Reset"))
+            resetPortals();
     }
 
     private GameObject shoot(GameObject portalPrefab, GameObject instance)
@@ -72,5 +75,13 @@ public class PortalGun : MonoBehaviour
             }
         }
         return instance;
+    }
+
+    private void resetPortals()
+    {
+        if (greenInstantiated != null)
+            Destroy(greenInstantiated, greenInstantiated.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+        if (purpInstantiated != null)
+            Destroy(purpInstantiated, purpInstantiated.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
     }
 }
