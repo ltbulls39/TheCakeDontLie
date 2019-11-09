@@ -49,14 +49,13 @@ public class PortalGun : MonoBehaviour
 
         if (hit.collider != null)
         {
-            Debug.Log("Hit a " + hit.collider.name);
             if (hit.collider.name == "Tilemap")
             {
                 if (Vector3.Angle(Vector3.down, hit.normal) == 135)
                     return instance;
-                Debug.Log(hit.collider.bounds.size);
                 // Hit a valid tile, spawn a portal
                 Vector3 spawnLocation = new Vector3(mousePosition.x, mousePosition.y);
+
                 // Rotate vector a little so it spawns correctly on platform
                 Vector2 vector = hit.normal;
                 vector = Quaternion.Euler(-90, -90, 0) * vector;
@@ -65,11 +64,13 @@ public class PortalGun : MonoBehaviour
                 Quaternion rot = Quaternion.FromToRotation(Vector3.up, vector);
                 if (instance != null)
                 {
-                    Debug.Log("Set to destroy: " + instance.name);
+                    // Animates end sequence, then destroys portal
                     Animator anim = instance.GetComponent<Animator>();
                     anim.SetBool("ToDestroy", true);
                     Destroy(instance, instance.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
                 }
+                // Creates new portal
+                Debug.DrawLine(firePointPosition, hit.point, Color.cyan, 2f);
                 instance = (GameObject)Instantiate(portalPrefab, hit.point, rot);
                 return instance;
             }
@@ -77,11 +78,19 @@ public class PortalGun : MonoBehaviour
         return instance;
     }
 
+
     private void resetPortals()
     {
+        // Resets both portals
         if (greenInstantiated != null)
+        {
+            greenInstantiated.GetComponent<Animator>().SetBool("ToDestroy", true);
             Destroy(greenInstantiated, greenInstantiated.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+        }
         if (purpInstantiated != null)
+        {
+            purpInstantiated.GetComponent<Animator>().SetBool("ToDestroy", true);
             Destroy(purpInstantiated, purpInstantiated.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+        }
     }
 }

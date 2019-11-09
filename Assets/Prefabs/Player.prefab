@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 2491738423310837758}
   m_Layer: 9
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -492,3 +492,7 @@ MonoBehaviour:
   toHit:
     serializedVersion: 2
     m_Bits: 1024
+  greenPortalPrefab: {fileID: 575408511020237961, guid: 69f114620ab193a4a9390f2436c58c4b,
+    type: 3}
+  purplePortalPrefab: {fileID: 2324365697307757676, guid: d076e572addcb1043b4ffd194fc033bf,
+    type: 3}

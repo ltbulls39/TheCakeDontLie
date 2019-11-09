@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Patrol : MonoBehaviour
 {
+    int enemyHealth = 1;
+
+
     public float speed;
     float distance = 1f;
     private bool movingRight = true;
@@ -32,6 +35,26 @@ public class Patrol : MonoBehaviour
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = true;
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Interactable")
+            takeDamage();
+    }
+
+    private void takeDamage()
+    {
+        if (enemyHealth <= 1)
+        {
+            Debug.Log("Enemy killed!");
+            Destroy(gameObject);
+        }
+        else
+        {
+            enemyHealth--;
+            Debug.Log("Took damage, now have: " + enemyHealth);
         }
     }
 }

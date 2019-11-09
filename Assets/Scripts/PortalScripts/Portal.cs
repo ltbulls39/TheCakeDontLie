@@ -12,18 +12,26 @@ public class Portal : MonoBehaviour
     {
         if (isGreen == false )
         {
-            destination = GameObject.FindGameObjectWithTag("GreenPortal").GetComponent<Transform>();
+            GameObject portal = GameObject.FindGameObjectWithTag("GreenPortal");
+            if (portal)
+                destination = portal.GetComponent<Transform>();
         } else
         {
-            destination = GameObject.FindGameObjectWithTag("PurplePortal").GetComponent<Transform>();
+            GameObject portal = GameObject.FindGameObjectWithTag("PurplePortal");
+            if (portal)
+                destination = portal.GetComponent<Transform>();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Tilemap")
+        string tag = collision.gameObject.tag;
+        if (tag == "IgnorePortal" || tag == "GreenPortal" || tag == "PurplePortal")
             return;
-        if (Vector2.Distance(transform.position, collision.transform.position) > .3f)
-            collision.transform.position = new Vector2(destination.position.x, destination.position.y);
+        if (Vector2.Distance(transform.position, collision.transform.position) > .1f)
+        {
+            if (destination)
+                collision.transform.position = new Vector2(destination.position.x, destination.position.y);
+        }
     }
 }

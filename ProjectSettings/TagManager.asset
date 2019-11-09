@@ -6,6 +6,10 @@ TagManager:
   tags:
   - GreenPortal
   - PurplePortal
+  - Enemy
+  - Interactable
+  - IgnorePortal
+  - Collectible
   layers:
   - Default
   - TransparentFX

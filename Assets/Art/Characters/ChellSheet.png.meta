@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: 8acdc8c043d5caf49849af512c4624a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7087930858679415172
+    second: ChellSheet_0
+  - first:
+      213: -7678356844587636980
+    second: ChellSheet_1
+  - first:
+      213: -2018321325823852187
+    second: ChellSheet_2
+  - first:
+      213: -4413159059460556626
+    second: ChellSheet_3
+  - first:
+      213: 1828754060517753110
+    second: ChellSheet_4
+  - first:
+      213: 5624203593255654525
+    second: ChellSheet_5
+  - first:
+      213: 6138617914665255723
+    second: ChellSheet_6
+  - first:
+      213: -1666073207861166077
+    second: ChellSheet_7
+  - first:
+      213: -1923804552256558380
+    second: ChellSheet_8
+  - first:
+      213: -6246110568758164147
+    second: ChellSheet_9
+  - first:
+      213: 1201926076240613214
+    second: ChellSheet_10
+  - first:
+      213: 2797843698669847609
+    second: ChellSheet_11
+  - first:
+      213: 3100518522218436473
+    second: ChellSheet_12
+  - first:
+      213: -2920074413510496339
+    second: ChellSheet_13
+  - first:
+      213: 2164533038775185202
+    second: ChellSheet_14
+  - first:
+      213: 2699945542646641742
+    second: ChellSheet_15
+  - first:
+      213: -465543472169062489
+    second: ChellSheet_16
+  - first:
+      213: 409143417546058955
+    second: ChellSheet_17
+  - first:
+      213: 2096705798963937132
+    second: ChellSheet_18
+  - first:
+      213: -965584114981396677
+    second: ChellSheet_19
+  - first:
+      213: -4782356902249696086
+    second: ChellSheet_20
+  - first:
+      213: -1357261067839808962
+    second: ChellSheet_21
+  - first:
+      213: -1068378428212273990
+    second: ChellSheet_22
+  - first:
+      213: 4629551106112102594
+    second: ChellSheet_23
+  - first:
+      213: 2124322953666750814
+    second: ChellSheet_24
+  - first:
+      213: 7319985091824335096
+    second: ChellSheet_25
+  - first:
+      213: 5331845658549423485
+    second: ChellSheet_26
+  - first:
+      213: 6142043304828536364
+    second: ChellSheet_27
+  - first:
+      213: 7169630624305073954
+    second: ChellSheet_28
+  - first:
+      213: -2378147800473598587
+    second: ChellSheet_29
+  - first:
+      213: 7658195132420535747
+    second: ChellSheet_30
+  - first:
+      213: -4407737985825206067
+    second: ChellSheet_31
+  - first:
+      213: -8705840077433560785
+    second: ChellSheet_32
+  - first:
+      213: 5483132281583997992
+    second: ChellSheet_33
+  - first:
+      213: 981911528765121640
+    second: ChellSheet_34
+  - first:
+      213: -3535912560074563574
+    second: ChellSheet_35
+  - first:
+      213: 5051295645567799731
+    second: ChellSheet_36
+  - first:
+      213: -2270048574049323067
+    second: ChellSheet_37
+  - first:
+      213: -2497710501041962844
+    second: ChellSheet_38
+  - first:
+      213: -747929507723472665
+    second: ChellSheet_39
+  - first:
+      213: -1106481630526900147
+    second: ChellSheet_40
+  - first:
+      213: 3387424595562065972
+    second: ChellSheet_41
+  - first:
+      213: -6096437409193670219
+    second: ChellSheet_42
+  - first:
+      213: -1620118801600118013
+    second: ChellSheet_43
+  - first:
+      213: 4135351672737796041
+    second: ChellSheet_44
+  - first:
+      213: 4482052248532328286
+    second: ChellSheet_45
+  - first:
+      213: -3498153652435966220
+    second: ChellSheet_46
+  - first:
+      213: -4470866271017357198
+    second: ChellSheet_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChellSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addd04e5181c59d4f86e5ae8468c795c
+      internalID: 7087930858679415172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 252
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 1, z: 11, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb51e1349a25aff409abb8b61ba1cad6
+      internalID: -7678356844587636980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 252
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b722f1de48ee54d9b32ee3514f1224
+      internalID: -2018321325823852187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 253
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b377d0477f71c654599c0d98e2ad43a4
+      internalID: -4413159059460556626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 252
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e68a415b09fafd42ab072ad72f447f6
+      internalID: 1828754060517753110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 252
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a604726be3e048b133505577b931e
+      internalID: 5624203593255654525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 248.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93687121735ed9e44a5ef28b2eefb8f0
+      internalID: 6138617914665255723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 248.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e7b3fdf2354834a977259f79ef68f7
+      internalID: -1666073207861166077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dded5ec31773014b8abf8ca4225792c
+      internalID: -1923804552256558380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 202
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969cd4d6dbe695c439ef37c565fa2895
+      internalID: -6246110568758164147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 202
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9dc69808f2344093fb55f7d061c08
+      internalID: 1201926076240613214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 203
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e494d33f8815647baf952f934f3ee7
+      internalID: 2797843698669847609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 202
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24eeec1a80b674408763197a372d045
+      internalID: 3100518522218436473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 199.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596bf332a5dacb048beb097948ca3598
+      internalID: -2920074413510496339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 199.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ad74a0fc689da4ebba6e2a213538cb
+      internalID: 2164533038775185202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 199.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a7542bf03df174bb03dae1a980f5df
+      internalID: 2699945542646641742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5d6548dbdbd3498de358343df0b6b
+      internalID: -465543472169062489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79052426050e01940a1062d0f9745758
+      internalID: 409143417546058955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32dd07160c1e6b41932afddda1c468e
+      internalID: 2096705798963937132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51444a0497f7c6428f5faf302a97472
+      internalID: -965584114981396677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56958713291d8e04eb1652a0a7d78c32
+      internalID: -4782356902249696086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3012d16bba6921849a2fba8fa594fdde
+      internalID: -1357261067839808962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6996fd7eb444147ba45075f6a39acd
+      internalID: -1068378428212273990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 150.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27ee2493ce1e44887ed1c47c8fd26d
+      internalID: 4629551106112102594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ae9312a6bbe0f44b37cf390265f9ef
+      internalID: 2124322953666750814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9120d45ebf824db72f6c7494b9d59
+      internalID: 7319985091824335096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a781a68f4c5ce47b2901ede3f1e32e
+      internalID: 5331845658549423485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcdee1360b0fac49a47eea4966cd9a3
+      internalID: 6142043304828536364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff3c971949e31646a0278248a404bfb
+      internalID: 7169630624305073954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3905eda2db15c5e47877d9f99d6d6ddc
+      internalID: -2378147800473598587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944b2e1fa34dfbc4bab5e5349f99d53b
+      internalID: 7658195132420535747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 101.33333
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2716be57d49864db58827648438f35
+      internalID: -4407737985825206067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97b8044ffb9b5c44bf85ef1eb1b3e29
+      internalID: -8705840077433560785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67549aa60550f5546b0f56fd006ead17
+      internalID: 5483132281583997992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e2ac944a7e68040ab38352f641120a
+      internalID: 981911528765121640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69fc15ac9d2d9a4ca0cb8102784c4ad
+      internalID: -3535912560074563574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffb565e96c22b140abddf13444b3f4d
+      internalID: 5051295645567799731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aef25fec38e8bb4b99018d9367012b4
+      internalID: -2270048574049323067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8e6144c18ee9042bc6e267284a6d01
+      internalID: -2497710501041962844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_39
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 52.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca543812721a634fa45f76b82f17ec5
+      internalID: -747929507723472665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3202272498b4a42af1bfec5e60a21b
+      internalID: -1106481630526900147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e449df4efbe196e4d9eefd8da7a5e8fe
+      internalID: 3387424595562065972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe1b3416e11a7242ab9d7c93448d369
+      internalID: -6096437409193670219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_43
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efdec1e9bfb0c94f9dad320978701b6
+      internalID: -1620118801600118013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348062e3e8938de44b45c63fe56f38b1
+      internalID: 4135351672737796041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_45
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af21b8b1451cf438855220bb45ade2
+      internalID: 4482052248532328286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb5e6212f5e17747bce7b4b5ed90c52
+      internalID: -3498153652435966220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChellSheet_47
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3.333332
+        width: 50.125
+        height: 49.666668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefe9308786774048a9178e1eda4ebb9
+      internalID: -4470866271017357198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
