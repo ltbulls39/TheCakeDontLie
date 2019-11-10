@@ -30,11 +30,13 @@ public class Collectible : MonoBehaviour
             return;
         canCollect = false;
         collectTimer = timeToCollect;
+
         // Increase players health
         PlayerController player = collision.gameObject.GetComponent<PlayerController>();
-        float curHealth = player.playerHealth;
-        player.playerHealth = player.playerHealth == 3f ? 3f : player.playerHealth + 1;
-        Debug.Log(player.playerHealth);
-        // Destroy gem 
+        if (player.playerHealth < player.maxHealth)
+        {
+            player.playerHealth++;
+            Destroy(gameObject);
+        }
     }
 }

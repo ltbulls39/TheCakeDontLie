@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float playerHealth;
+    [System.NonSerialized]
+    public float maxHealth = 3f;
 
 
     public CharacterController2D controller;
@@ -13,6 +15,12 @@ public class PlayerController : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
+
+
+    // SECTION: Time to kill
+    float timeToDamage = 2f;
+    bool canDamage = true;
+    float damageTimer;
 
 
     // Start is called before the first frame update
@@ -25,6 +33,15 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (!canDamage)
+        {
+            // Can't collect, reset timer
+            damageTimer -= Time.deltaTime;
+            if (damageTimer < 0)
+                canDamage = true;
+        }
+
+
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         if (Input.GetButtonDown("Jump"))
@@ -53,16 +70,28 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        // Recently collected, return
+        
+
+
         BoxCollider2D boxCollider = GetComponent<BoxCollider2D>();
         if (other.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Collision Detected");
+            if (!canDamage)
+                return;
+            canDamage = false;
+            damageTimer = timeToDamage;
             takeDamage();
+        }
     }
 
     private void takeDamage()
     {
+        Debug.Log("In takeDamage()\nCurrent health: " + playerHealth);
         if (playerHealth <= 1)
         {
-            playerHealth -= .5f;
+            playerHealth -= 1f;
             GameObject.Find("ArmPivot").SetActive(false);
             Animator anim = gameObject.GetComponent<Animator>();
             anim.SetBool("ToDestroy", true);
@@ -70,7 +99,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            playerHealth -= .5f;
+            playerHealth -= 1f;
         }
     }
 }
