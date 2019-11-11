@@ -85,7 +85,6 @@ public class PortalGun : MonoBehaviour
                     Destroy(instance, instance.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
                 }
                 // Creates new portal
-                Debug.DrawLine(firePointPosition, hit.point, Color.cyan, 2f);
                 instance = (GameObject)Instantiate(portalPrefab, hit.point, rot);
                 return instance;
             }

@@ -19,7 +19,6 @@ public class WUI_Controller : MonoBehaviour
     public void Help()
     {
         // Disable main and enable help panels
-        Debug.Log(helpPanel);
         mainPanel.SetActive(false);
         helpPanel.SetActive(true);
     }

@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 2491738423310837753}
   - component: {fileID: 2491738423310837751}
   - component: {fileID: 2491738423310837755}
-  - component: {fileID: 2491738423310837758}
+  - component: {fileID: 1974208259}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -122,7 +122,7 @@ Transform:
   m_GameObject: {fileID: 2491738423310837750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.397, y: 2.815, z: 0}
-  m_LocalScale: {x: 4.2, y: 4.2, z: 4}
+  m_LocalScale: {x: 0.25792223, y: 0.23024315, z: 0.177396}
   m_Children:
   - {fileID: 2491738421933642004}
   - {fileID: 2491738422663714321}
@@ -168,7 +168,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 72de0c64f2c6a498096698322c976a67, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7147553b1e72eec449c5ace4f9f4d13a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -255,6 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ab0c0d795892b4f8aa583353ef6f3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: 3
   controller: {fileID: 0}
   runSpeed: 40
 --- !u!61 &2491738423310837751
@@ -270,18 +271,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.004040219, y: 0.00034195185}
+  m_Offset: {x: -0.07095182, y: 2.6238382}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.33, y: 0.32}
+    border: {x: 1.1999999, y: 0, z: 1.35, w: 0.14999999}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 4.8, y: 4.8}
     newSize: {x: 0.33, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16399147, y: 0.12676328}
+  m_Size: {x: 2.2516716, y: 2.9751315}
   m_EdgeRadius: 0
 --- !u!58 &2491738423310837755
 CircleCollider2D:
@@ -296,10 +297,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.08}
+  m_Offset: {x: -0.11375221, y: 0.76701397}
   serializedVersion: 2
-  m_Radius: 0.08
---- !u!95 &2491738423310837758
+  m_Radius: 0.80265987
+--- !u!95 &1974208259
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -309,7 +310,7 @@ Animator:
   m_GameObject: {fileID: 2491738423310837750}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5a971085a639e1143827658650880eb1, type: 2}
+  m_Controller: {fileID: 9100000, guid: de933bbb3eeed8a40b63be794031fc0f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -374,8 +375,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7593187114299779207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.106, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0, y: 1.35, z: 0}
+  m_LocalScale: {x: 18.791286, y: 18.791286, z: 18.791286}
   m_Children:
   - {fileID: 2273652464718167373}
   m_Father: {fileID: 2491738423310837754}
@@ -406,6 +407,7 @@ GameObject:
   - component: {fileID: 1893751168206241655}
   - component: {fileID: 9148875126471767380}
   - component: {fileID: 878597453}
+  - component: {fileID: 1843869133}
   m_Layer: 0
   m_Name: Portal_gun
   m_TagString: Untagged
@@ -496,3 +498,100 @@ MonoBehaviour:
     type: 3}
   purplePortalPrefab: {fileID: 2324365697307757676, guid: d076e572addcb1043b4ffd194fc033bf,
     type: 3}
+  portalSound: {fileID: 8300000, guid: 448c5ad05b775ea48b1cedb6b3a3bee4, type: 3}
+--- !u!82 &1843869133
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9114492418634166334}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

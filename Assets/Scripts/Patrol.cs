@@ -18,7 +18,6 @@ public class Patrol : MonoBehaviour
         // Moves the character and then gets info on the ground beneath it
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         RaycastHit2D groundInfo = Physics2D.Raycast(groundDetect.position, Vector2.down, distance);
-        Debug.DrawRay(groundDetect.position, Vector2.down, Color.red);
 
 
         if (groundInfo.collider == false)
@@ -48,13 +47,11 @@ public class Patrol : MonoBehaviour
     {
         if (enemyHealth <= 1)
         {
-            Debug.Log("Enemy killed!");
             Destroy(gameObject);
         }
         else
         {
             enemyHealth--;
-            Debug.Log("Took damage, now have: " + enemyHealth);
         }
     }
 }

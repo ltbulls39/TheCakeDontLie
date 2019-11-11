@@ -35,7 +35,6 @@ public class CharacterController2D : MonoBehaviour
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         curGravScale = m_Rigidbody2D.gravityScale;
-        Debug.Log("On land event ask");
         if (OnLandEvent == null)
             OnLandEvent = new UnityEvent();
 
@@ -76,7 +75,6 @@ public class CharacterController2D : MonoBehaviour
             // If the character has a ceiling preventing them from standing up, keep them crouching
             if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
             {
-                Debug.Log("Ceiling above me");
                 //crouch = true;
             }
         }
@@ -100,7 +98,6 @@ public class CharacterController2D : MonoBehaviour
                 }
 
                 // Reduce the speed by the crouchSpeed multiplier
-                Debug.Log("Currently crouching");
                 move *= m_CrouchSpeed;
 
                 // Disable one of the colliders when crouching

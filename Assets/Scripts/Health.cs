@@ -29,12 +29,10 @@ public class Health : MonoBehaviour
             Debug.Log("Health: " + health);
             if (i < health)
             {
-                Debug.Log("I less than health!");
                 theHearts[i].GetComponent<SpriteRenderer>().sprite = fullHeart;
             }
             else
             {
-                Debug.Log("I more than health!");
                 theHearts[i].GetComponent<SpriteRenderer>().sprite = emptyHeart;
             }
 
