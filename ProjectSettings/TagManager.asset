@@ -10,6 +10,7 @@ TagManager:
   - Interactable
   - IgnorePortal
   - Collectible
+  - Cake
   layers:
   - Default
   - TransparentFX

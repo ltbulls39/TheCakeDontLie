@@ -70,14 +70,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        // Recently collected, return
-        
-
-
         BoxCollider2D boxCollider = GetComponent<BoxCollider2D>();
         if (other.gameObject.tag == "Enemy")
         {
-            Debug.Log("Collision Detected");
+            // Time  for invincibility
             if (!canDamage)
                 return;
             canDamage = false;

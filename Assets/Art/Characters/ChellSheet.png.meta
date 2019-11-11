@@ -380,10 +380,10 @@ TextureImporter:
       name: ChellSheet_7
       rect:
         serializedVersion: 2
-        x: 350
-        y: 248.33333
-        width: 50.125
-        height: 49.666668
+        x: 381
+        y: 265
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
