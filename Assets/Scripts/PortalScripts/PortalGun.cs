@@ -14,11 +14,16 @@ public class PortalGun : MonoBehaviour
 
     private bool isGreenActive = false;
     private bool isPurpActive = false;
+
+    private AudioSource audioPlayer;
+    public AudioClip portalSound;
     
 
     // Start is called before the first frame update
     void Awake()
     {
+        audioPlayer = GetComponent<AudioSource>();
+
         firePoint = transform.Find("FirePoint");
         if (firePoint == null)
         {
@@ -41,8 +46,18 @@ public class PortalGun : MonoBehaviour
             resetPortals();
     }
 
+    IEnumerator PlayPortal()
+    {
+        audioPlayer.clip = portalSound;
+        audioPlayer.Play();
+        yield return new WaitForSeconds(0f);
+    }
+
     private GameObject shoot(GameObject portalPrefab, GameObject instance)
     {
+        // Default behavior: Sound any time a portal is shot, even if it doesn't connect
+        StartCoroutine(PlayPortal());
+
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
         RaycastHit2D hit = Physics2D.Raycast(firePointPosition, mousePosition - firePointPosition, 100, toHit);
